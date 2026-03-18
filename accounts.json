@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "compute_capability": "CPU",
+    "max_vcus": 1000,
+    "mining_interval_ms": 2000,
+    "max_consecutive_failures": 10,
+    "retry_delay_ms": 5000
+  },
+  "accounts": [
+    {
+      "id": "account_1",
+      "wallet": "",
+      "agent_id": null,
+      "private_key": null,
+      "enabled": true,
+      "max_vcus_override": null
+    }
+  ]
+}
