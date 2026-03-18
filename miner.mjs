@@ -186,7 +186,7 @@ async function registerAgent(accountId, publicKey, computeCapability, maxVcus, w
         max_vcus: maxVcus,
         wallet: wallet
       }),
-      signal: AbortSignal.timeout(3000)
+      signal: AbortSignal.timeout(15000)
     });
     const text = await resp.text();
     let data;
@@ -230,7 +230,7 @@ async function submitProof(accountId, taskId, solution, signature, computeTimeMs
         signature: signature,
         compute_time_ms: computeTimeMs
       }),
-      signal: AbortSignal.timeout(3000)
+      signal: AbortSignal.timeout(15000)
     });
     const text = await resp.text();
     let data;
