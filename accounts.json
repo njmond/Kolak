@@ -8,7 +8,7 @@
   },
   "accounts": [
     {
-      "id": "account_1",
+      "id": "monventures",
       "wallet": "0x7B29C952877E990b6e0BaACf1C759F83DeC48ae5",
       "agent_id": null,
       "private_key": null,
